@@ -7,6 +7,7 @@
 filetype plugin indent on
 syntax on
 set shell=/bin/zsh
+set clipboard=unnamed
 set guifont=Menlo:h14
 set nocompatible
 set modelines=0
