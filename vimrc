@@ -59,6 +59,7 @@ set background=light
 " Basics
 
 inoremap jk <ESC>
+inoremap <C-e> <C-o>A
 let mapleader = ","
 
 " Arrows are unvimlike 
@@ -124,3 +125,5 @@ if has("clipboard")
     set clipboard+=unnamedplus
   endif
 endif
+
+execute 'packadd YouCompleteMe'
